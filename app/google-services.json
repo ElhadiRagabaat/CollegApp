@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "959084876123",
+    "firebase_url": "https://admincollage.firebaseio.com",
+    "project_id": "admincollage",
+    "storage_bucket": "admincollage.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:959084876123:android:c653b2ad32d373ee12ca7e",
+        "android_client_info": {
+          "package_name": "com.ragabaat.admincollage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "959084876123-dmgkv1gub5hcent33qbil3nsjqjd32fh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgGTUoAXqz6fAGAkmbYt2-0Z7-Lqy2-Qo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "959084876123-dmgkv1gub5hcent33qbil3nsjqjd32fh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
