@@ -1,4 +1,4 @@
-package com.ragabaat.admincollage;
+package com.ragabaat.admincollage.notice;
 
 public class NoticeData {
 

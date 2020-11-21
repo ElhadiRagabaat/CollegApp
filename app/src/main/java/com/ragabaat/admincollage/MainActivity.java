@@ -4,11 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
 
 import android.content.Intent;
-import android.icu.text.CaseMap;
 import android.os.Bundle;
 import android.view.View;
 
 import com.ragabaat.admincollage.faculty.UpdateFaculty;
+import com.ragabaat.admincollage.notice.UploadNotice;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             case R.id.addNotice:
 
-                 intent = new Intent(MainActivity.this,UploadNotice.class);
+                 intent = new Intent(MainActivity.this, UploadNotice.class);
                 startActivity(intent);
                 break;
 

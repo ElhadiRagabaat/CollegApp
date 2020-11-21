@@ -12,12 +12,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AdminCollage">
-        <activity android:name=".faculty.UpdateTeacherActivity"></activity>
+        <activity android:name=".notice.DeleteNoticeActivity"></activity>
+        <activity android:name=".faculty.UpdateTeacherActivity" />
         <activity android:name=".faculty.AddTeachers" />
         <activity android:name=".faculty.UpdateFaculty" />
         <activity android:name=".UpoladBdfActivity" />
         <activity android:name=".UploadImage" />
-        <activity android:name=".UploadNotice" />
+        <activity android:name=".notice.UploadNotice" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

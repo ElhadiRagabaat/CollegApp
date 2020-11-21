@@ -160,7 +160,7 @@ public class UpdateTeacherActivity extends AppCompatActivity {
 
         }else if (bitmap == null){
 
-            updateData("");
+            updateData(image);
 
         }else {
 
