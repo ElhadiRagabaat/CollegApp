@@ -2,16 +2,15 @@ package com.ragabaat.admincollage.notice;
 
 public class NoticeData {
 
-    String title,image, data , time,key;
+    private String title,image,date,time,key;
 
     public NoticeData() {
-
     }
 
-    public NoticeData(String title, String image, String data, String time, String key) {
+    public NoticeData(String title, String image, String date, String time, String key) {
         this.title = title;
         this.image = image;
-        this.data = data;
+        this.date = date;
         this.time = time;
         this.key = key;
     }
@@ -32,12 +31,12 @@ public class NoticeData {
         this.image = image;
     }
 
-    public String getData() {
-        return data;
+    public String getDate() {
+        return date;
     }
 
-    public void setData(String data) {
-        this.data = data;
+    public void setDate(String date) {
+        this.date = date;
     }
 
     public String getTime() {

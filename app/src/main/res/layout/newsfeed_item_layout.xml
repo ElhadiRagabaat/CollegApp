@@ -7,6 +7,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="16dp"
+
         android:orientation="vertical">
 
         <LinearLayout
@@ -25,7 +26,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Admin College App"
-                android:layout_marginLeft="16dp"
+                android:layout_marginLeft="20dp"
                 android:textSize="19dp"
                 android:textColor="@color/textColor"/>
 
@@ -33,6 +34,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Delete"
+                android:id="@+id/deleteNoticebtn"
                 android:layout_marginLeft="-100dp"
                 style="@style/Widget.MaterialComponents.Button.OutlinedButton"/>
 
@@ -43,13 +45,16 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:id="@+id/deleteNoticeTitle"
             android:text="testing College alppication for the moment"
             android:textSize="17sp"
+            android:layout_margin="10dp"
             android:textColor="@color/textColor"/>
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:id="@+id/deleteNoticeImage"
             android:scaleType="fitXY"/>
 
 

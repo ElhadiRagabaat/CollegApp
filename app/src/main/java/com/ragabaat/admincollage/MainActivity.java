@@ -8,16 +8,19 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.ragabaat.admincollage.faculty.UpdateFaculty;
+import com.ragabaat.admincollage.notice.DeleteNoticeActivity2;
 import com.ragabaat.admincollage.notice.UploadNotice;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
-   private CardView uploadNotice,addGallery,addEbook,faculty;
+   private CardView uploadNotice,addGallery,addEbook,faculty,deleteNotice;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        deleteNotice = findViewById(R.id.deleteNotice);
         uploadNotice = findViewById(R.id.addNotice);
         addGallery= findViewById(R.id.addGalleryImage);
         addEbook = findViewById(R.id.addEbook);
@@ -28,6 +31,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         addGallery.setOnClickListener(this);
         addEbook .setOnClickListener(this::onClick);
         faculty .setOnClickListener(this::onClick);
+        deleteNotice.setOnClickListener(this::onClick);
+
     }
 
     @Override
@@ -57,6 +62,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.faculty:
 
                 intent = new Intent(MainActivity.this, UpdateFaculty.class);
+                startActivity(intent);
+                break;
+
+            case R.id.deleteNotice:
+
+                intent = new Intent(MainActivity.this, DeleteNoticeActivity2.class);
                 startActivity(intent);
                 break;
         }

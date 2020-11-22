@@ -4,10 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".notice.DeleteNoticeActivity">
+    android:layout_margin="13dp"
+    tools:context=".notice.DeleteNoticeActivity2">
+
 
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
+        android:id="@+id/deleteNoticeRecycler"
         android:layout_height="match_parent"/>
 
     <ProgressBar
